@@ -1,15 +1,15 @@
 
-export REGION=us-west1
-export ZONE=us-west1-c
-export PROJECT_ID=qwiklabs-gcp-03-edf32860f2f7
+export REGION=us-east1
+export ZONE=us-east1-c
+export PROJECT_ID=qwiklabs-gcp-02-e042fd1264eb
 export BUCKET_NAME=$PROJECT_ID-bucket
 
 gcloud storage buckets create gs://$BUCKET_NAME --location=$REGION
 
-export PUB_SUB_NAME=topic-memories-227
+export PUB_SUB_NAME=topic-memories-621
 gcloud pubsub topics create $PUB_SUB_NAME
 
-export FUNC_NAME=memories-thumbnail-creator
+export FUNC_NAME=memories-thumbnail-maker
 
 cat <<EOF >> index.js
 const functions = require('@google-cloud/functions-framework');
@@ -19,7 +19,7 @@ const gcs = new Storage();
 const { PubSub } = require('@google-cloud/pubsub');
 const imagemagick = require("imagemagick-stream");
 
-functions.cloudEvent('memories-thumbnail-creator', cloudEvent => {
+functions.cloudEvent('memories-thumbnail-maker', cloudEvent => {
   const event = cloudEvent.data;
 
   console.log(`Event: ${event}`);
@@ -29,7 +29,7 @@ functions.cloudEvent('memories-thumbnail-creator', cloudEvent => {
   const bucketName = event.bucket;
   const size = "64x64"
   const bucket = gcs.bucket(bucketName);
-  const topicName = "topic-memories-227";
+  const topicName = "topic-memories-621";
   const pubsub = new PubSub();
   if ( fileName.search("64x64_thumbnail") == -1 ){
     // doesn't have a thumbnail, get the filename extension
@@ -107,7 +107,8 @@ export PROJECT_NUMBER=`gcloud projects describe $PROJECT_ID --format='value(proj
 
 gcloud projects add-iam-policy-binding $PROJECT_ID \
     --member=serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
-    --role=roles/eventarc.eventReceiver
+    --role=roles/eventarc.eventReceiver \
+    --role=roles/eventarc.serviceAgent
 
 export SERVICE_ACCOUNT="$(gsutil kms serviceaccount -p $PROJECT_ID)"
 
@@ -128,5 +129,4 @@ curl -O https://storage.googleapis.com/cloud-training/gsp315/map.jpg
 
 gsutil cp map.jpg gs://$BUCKET_NAME
 
-gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:abcxzy
-
+gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:student-02-2d98c0614f39@qwiklabs.net --role='roles/viewer' --all
