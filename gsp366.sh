@@ -4,7 +4,6 @@ export INSTANCE_NAME=lab-vm
 export ZONE=us-east4-a
 export DOCKER_CONTAINER_NAME=product_inspection
 
-
 gcloud compute instances list
 gcloud compute ssh ${INSTANCE_NAME} --zone $ZONE
 
