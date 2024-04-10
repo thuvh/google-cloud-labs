@@ -7,6 +7,7 @@
 5. [Build LookML Objects in Looker: Challenge Lab][gsp361] - [doc](./gsp361.md) - [script](./gsp361.sh)
 6. [Analyze Images with the Cloud Vision API: Challenge Lab][arc122] - [doc](./arc122.md) - [script](./arc122.sh)
 7. [Analyze Sentiment with Natural Language API: Challenge Lab][arc130] - [doc](./arc130.md) - [script](./arc130.sh)
+8. [Analyze Speech & Language with Google APIs: Challenge Lab][arc114] - [doc](./arc114.md) - [script](./arc114.sh)
 
 [gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
 [gsp318]: https://www.cloudskillsboost.google/focuses/10457?parent=catalog#step1
@@ -15,4 +16,5 @@
 [gsp361]: https://www.cloudskillsboost.google/games/4993/labs/32544
 [arc122]: https://www.cloudskillsboost.google/course_templates/633/labs/461567
 [arc130]: https://www.cloudskillsboost.google/course_templates/667/labs/461611
+[arc114]: https://www.cloudskillsboost.google/focuses/63851?parent=catalog
 

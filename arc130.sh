@@ -15,6 +15,7 @@ var apiEndpoint = 'https://language.googleapis.com/v1/documents:analyzeSentiment
 export PROJECT_ID=
 export API_KEY=
 
+# other
 cat > analyze-request.json <<EOF
 {
   "document":{

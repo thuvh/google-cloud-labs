@@ -129,4 +129,4 @@ curl -O https://storage.googleapis.com/cloud-training/gsp315/map.jpg
 
 gsutil cp map.jpg gs://$BUCKET_NAME
 
-gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:student-02-2d98c0614f39@qwiklabs.net --role='roles/viewer' --all
+gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:student-02-2d98c0614f39@qwiklabs.net --role='roles/viewer' --alls
