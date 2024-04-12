@@ -9,6 +9,7 @@
 7. [Analyze Sentiment with Natural Language API: Challenge Lab][arc130] - [doc](./arc130.md) - [script](./arc130.sh)
 8. [Analyze Speech & Language with Google APIs: Challenge Lab][arc114] - [doc](./arc114.md) - [script](./arc114.sh)
 9. [Monitor and Manage Google Cloud Resources: Challenge Lab][arc101] - [doc](./arc101.md) - [script](./arc101.sh)
+10. [Build Infrastructure with Terraform on Google Cloud: Challenge Lab][gsp345] - [doc](./gsp345.md) - [script](./gsp345.sh)
 
 [gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
 [gsp318]: https://www.cloudskillsboost.google/focuses/10457?parent=catalog#step1
@@ -19,3 +20,4 @@
 [arc130]: https://www.cloudskillsboost.google/course_templates/667/labs/461611
 [arc114]: https://www.cloudskillsboost.google/focuses/63851?parent=catalog
 [arc101]: https://www.cloudskillsboost.google/course_templates/653/labs/461539
+[gsp345]: https://www.cloudskillsboost.google/course_templates/636/labs/464836
