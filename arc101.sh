@@ -1,38 +1,39 @@
 
-export REGION=us-east1
-export ZONE=us-east1-c
-export PROJECT_ID=qwiklabs-gcp-02-e042fd1264eb
-export BUCKET_NAME=$PROJECT_ID-bucket
+export REGION=
+export PROJECT_ID=
+export BUCKET_NAME=
 export USER2=
 
 gcloud storage buckets create gs://$BUCKET_NAME --location=$REGION
-gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:student-02-2d98c0614f39@qwiklabs.net --role='roles/viewer' --alls
+gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$USER2 --role='roles/storage.objectViewer' 
 
-
-export PUB_SUB_NAME=topic-memories-621
+export PUB_SUB_NAME=
 gcloud pubsub topics create $PUB_SUB_NAME
 
-export FUNC_NAME=memories-thumbnail-maker
+export FUNC_NAME=
+export FUNC_ENTRY_POINT_NAME=
+
+gcloud services enable cloudfunctions.googleapis.com artifactregistry.googleapis.com
+
+mkdir code && cd code
 
 cat <<EOF >> index.js
-const functions = require('@google-cloud/functions-framework');
+/* globals exports, require */
+//jshint strict: false
+//jshint esversion: 6
+"use strict";
 const crc32 = require("fast-crc32c");
 const { Storage } = require('@google-cloud/storage');
 const gcs = new Storage();
 const { PubSub } = require('@google-cloud/pubsub');
 const imagemagick = require("imagemagick-stream");
 
-functions.cloudEvent('memories-thumbnail-maker', cloudEvent => {
-  const event = cloudEvent.data;
-
-  console.log(`Event: ${event}`);
-  console.log(`Hello ${event.bucket}`);
-
+exports.${FUNC_ENTRY_POINT_NAME} = (event, context) => {
   const fileName = event.name;
   const bucketName = event.bucket;
   const size = "64x64"
   const bucket = gcs.bucket(bucketName);
-  const topicName = "topic-memories-621";
+  const topicName = "$PUB_SUB_NAME";
   const pubsub = new PubSub();
   if ( fileName.search("64x64_thumbnail") == -1 ){
     // doesn't have a thumbnail, get the filename extension
@@ -81,7 +82,7 @@ functions.cloudEvent('memories-thumbnail-maker', cloudEvent => {
   else {
     console.log(`gs://${bucketName}/${fileName} already has a thumbnail`);
   }
-});
+};
 EOF
 
 cat <<EOF >> package.json 
@@ -120,14 +121,17 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     --role='roles/pubsub.publisher'
 
 gcloud functions deploy $FUNC_NAME \
---gen2 \
---runtime=nodejs20 \
+--runtime=nodejs14 \
 --region=$REGION \
 --source=. \
---entry-point=$FUNC_NAME \
+--entry-point=$FUNC_ENTRY_POINT_NAME \
 --trigger-bucket=gs://$BUCKET_NAME 
 
-curl -O https://storage.googleapis.com/cloud-training/gsp315/map.jpg
+curl -O https://storage.googleapis.com/cloud-training/arc101/travel.jpg
 
-gsutil cp map.jpg gs://$BUCKET_NAME
+gsutil cp travel.jpg gs://$BUCKET_NAME
 
+# TODO: 
+https://cloud.google.com/monitoring/alerts/using-alerting-api
+https://cloud.google.com/monitoring/alerts/using-channels-api
+https://cloud.google.com/sdk/gcloud/reference/beta/monitoring/channels/create
