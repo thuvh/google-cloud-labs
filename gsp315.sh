@@ -12,6 +12,10 @@ gcloud projects remove-iam-policy-binding $PROJECT_ID --member user:student-02-2
 export PUB_SUB_NAME=topic-memories-621
 gcloud pubsub topics create $PUB_SUB_NAME
 
+# enable api run.googleapis.com
+# enable api eventarc.googleapis.com
+gcloud services enable run.googleapis.com eventarc.googleapis.com
+
 export FUNC_NAME=memories-thumbnail-maker
 
 cat <<EOF >> index.js
