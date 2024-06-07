@@ -15,6 +15,13 @@
 13. [Streaming Analytics into BigQuery: Challenge Lab][arc106] - [doc](./arc106.md) - [script](./arc106.sh)
 14. [Using the Google Cloud Speech API: Challenge Lab][arc131] - [doc](./arc131.md)
 15. [Secure BigLake Data: Challenge Lab][arc129] - [doc](./arc129.md) - [script](./arc129.sh)
+16. [Networking Fundamentals on Google Cloud: Challenge Lab][arc124] - [script](./arc124.sh)
+17. [Build a Secure Google Cloud Network: Challenge Lab][gsp322] - [doc](./gsp322.md) - [script](./gsp322.sh)
+
+# TODO
+1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
+2. https://www.cloudskillsboost.google/course_templates/654/labs/464661
+3. https://www.cloudskillsboost.google/course_templates/716/labs/464399
 
 [gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
 [gsp318]: https://www.cloudskillsboost.google/focuses/10457?parent=catalog#step1
@@ -31,3 +38,5 @@
 [arc106]: https://www.cloudskillsboost.google/course_templates/752/labs/461559
 [arc131]: https://www.cloudskillsboost.google/course_templates/756/labs/461655
 [arc129]: https://www.cloudskillsboost.google/course_templates/751/labs/461551
+[arc124]: https://www.cloudskillsboost.google/games/5156/labs/33681
+[gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687

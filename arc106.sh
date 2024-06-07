@@ -6,7 +6,7 @@ export BIGQUERY_TABLE_NAME=
 export PUBSUB_TOPIC_NAME=
 export DATAFLOW_JOB_NAME=
 
-gcloud services enable dataflow.googleapis.com pubsub.googleapis.com
+gcloud services enable dataflow.googleapis.com pubsub.googleapis.com datapipelines.googleapis.com cloudscheduler.googleapis.com
 
 gsutil mb gs://$BUCKET_NAME/
 
