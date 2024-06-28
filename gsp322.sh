@@ -7,11 +7,12 @@ export ZONE=
 
 
 gcloud compute firewall-rules delete open-access
+gcloud --format="table(id,name)" compute firewall-rules list
 gcloud compute networks list
 gcloud compute networks subnets list --network acme-vpc
-gcloud --format table compute instances list
+gcloud --format="table(id,name,status)" compute instances list
 
-gcloud compute instances resume bastion --zone $ZONE
+gcloud compute instances start bastion --zone $ZONE
 gcloud compute networks subnets describe acme-mgmt-subnet
 
 gcloud compute --project=$PROJECT_ID firewall-rules create $SSH_IAP_NETWORK_TAG \
