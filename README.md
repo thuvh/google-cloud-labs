@@ -17,6 +17,7 @@
 15. [Secure BigLake Data: Challenge Lab][arc129] - [doc](./arc129.md) - [script](./arc129.sh)
 16. [Networking Fundamentals on Google Cloud: Challenge Lab][arc124] - [script](./arc124.sh)
 17. [Build a Secure Google Cloud Network: Challenge Lab][gsp322] - [doc](./gsp322.md) - [script](./gsp322.sh)
+18. [Create ML Models with BigQuery ML: Challenge Lab][gsp341] - [doc](./gsp341.md) - script
 
 # TODO
 1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
@@ -40,3 +41,4 @@
 [arc129]: https://www.cloudskillsboost.google/course_templates/751/labs/461551
 [arc124]: https://www.cloudskillsboost.google/games/5156/labs/33681
 [gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687
+[gsp341]: https://www.cloudskillsboost.google/course_templates/626/labs/489291
