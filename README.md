@@ -18,11 +18,32 @@
 16. [Networking Fundamentals on Google Cloud: Challenge Lab][arc124] - [script](./arc124.sh)
 17. [Build a Secure Google Cloud Network: Challenge Lab][gsp322] - [doc](./gsp322.md) - [script](./gsp322.sh)
 18. [Create ML Models with BigQuery ML: Challenge Lab][gsp341] - [doc](./gsp341.md) - script
+18. [Implement Cloud Security Fundamentals on Google Cloud: Challenge Lab][gsp342] - [script](./gsp342.sh)
+19. [Implement DevOps Workflows in Google Cloud: Challenge Lab][gsp330] - [script](./gsp330.sh)
+20. [Classify Images with TensorFlow on Google Cloud: Challenge Lab][gsp398] - [script](./gsp398.sh)
+21. [Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab][gsp379] - [doc](./gsp379.md)
+22. [Create and Manage Cloud Spanner Instances: Challenge Lab][gsp381] - [script](./gsp381.sh)
+23. [Get Started with Dataplex: Challenge Lab][arc117] - [script](./arc117.sh)
+24. [Implement CI/CD Pipelines on Google Cloud: Challenge Lab][gsp393] - [script](./gsp393.sh)
+25. [Develop Serverless Apps with Firebase: Challenge Lab][gsp344] - [script](./gsp344.sh)
+26. [Deploy a Compute Instance with a Remote Startup Script: Challenge Lab][gsp301] - [script](./gsp301.sh)
+27. [Build a Website on Google Cloud: Challenge Lab][gsp319] - [script](./gsp319.sh)
+28. [Build Google Cloud Infrastructure for AWS Professionals: Challenge Lab][gsp511] - [script](./gsp511.sh)
+29. [Build Google Cloud Infrastructure for Azure Professionals: Challenge Lab][gsp512] - [script](./gsp512.sh)
+30. [Create and Manage AlloyDB Instances: Challenge Lab][gsp395] - [script](./gsp395.sh)
+31. [Create a Streaming Data Lake on Cloud Storage: Challenge Lab][arc110] - [script](./arc110.sh)
+32. [Tag and Discover BigLake Data: Challenge Lab][arc123] - [script](./arc123.sh)
 
 # TODO
 1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
 2. https://www.cloudskillsboost.google/course_templates/654/labs/464661
 3. https://www.cloudskillsboost.google/course_templates/716/labs/464399
+4. https://www.cloudskillsboost.google/course_templates/657/labs/462733
+5. https://www.cloudskillsboost.google/course_templates/676/labs/476317
+6. https://www.cloudskillsboost.google/course_templates/649?utm_source=qwiklabs&utm_medium=gametemplate&utm_campaign=arcade24-june-level2
+7. https://www.cloudskillsboost.google/course_templates/640?utm_source=qwiklabs&utm_medium=gametemplate&utm_campaign=arcade24-june-level2
+8. https://www.cloudskillsboost.google/course_templates/726?catalog_rank=%7B%22rank%22%3A9%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D
+9. https://www.cloudskillsboost.google/paths/16/course_templates/681
 
 [gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
 [gsp318]: https://www.cloudskillsboost.google/focuses/10457?parent=catalog#step1
@@ -42,3 +63,21 @@
 [arc124]: https://www.cloudskillsboost.google/games/5156/labs/33681
 [gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687
 [gsp341]: https://www.cloudskillsboost.google/course_templates/626/labs/489291
+[gsp344]: https://www.cloudskillsboost.google/course_templates/649/labs/489703
+[gsp305]: https://www.cloudskillsboost.google/games/5155/labs/33670
+[gsp327]: https://www.cloudskillsboost.google/games/5178/labs/33845
+[gsp342]: https://www.cloudskillsboost.google/course_templates/645/labs/464890
+[gsp330]: https://www.cloudskillsboost.google/course_templates/716/labs/464399
+[gsp398]: https://www.cloudskillsboost.google/course_templates/646/labs/476328
+[gsp379]: https://www.cloudskillsboost.google/course_templates/776/labs/423784
+[gsp381]: https://www.cloudskillsboost.google/course_templates/643/labs/471750
+[arc117]: https://www.cloudskillsboost.google/course_templates/726/labs/461571
+[gsp393]: https://www.cloudskillsboost.google/course_templates/691/labs/476322
+[gsp301]: https://www.cloudskillsboost.google/course_templates/640/labs/489765
+[gsp319]: https://www.cloudskillsboost.google/course_templates/638/labs/480370
+[gsp321]: https://www.cloudskillsboost.google/course_templates/625/labs/464390
+[gsp511]: https://www.cloudskillsboost.google/course_templates/687/labs/452147
+[gsp512]: https://www.cloudskillsboost.google/course_templates/688/labs/462741
+[gsp395]: https://www.cloudskillsboost.google/course_templates/642/labs/477663
+[arc110]: https://www.cloudskillsboost.google/course_templates/705/labs/461631
+[arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
