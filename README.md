@@ -18,21 +18,22 @@
 16. [Networking Fundamentals on Google Cloud: Challenge Lab][arc124] - [script](./arc124.sh)
 17. [Build a Secure Google Cloud Network: Challenge Lab][gsp322] - [doc](./gsp322.md) - [script](./gsp322.sh)
 18. [Create ML Models with BigQuery ML: Challenge Lab][gsp341] - [doc](./gsp341.md) - script
-18. [Implement Cloud Security Fundamentals on Google Cloud: Challenge Lab][gsp342] - [script](./gsp342.sh)
-19. [Implement DevOps Workflows in Google Cloud: Challenge Lab][gsp330] - [script](./gsp330.sh)
-20. [Classify Images with TensorFlow on Google Cloud: Challenge Lab][gsp398] - [script](./gsp398.sh)
-21. [Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab][gsp379] - [doc](./gsp379.md)
-22. [Create and Manage Cloud Spanner Instances: Challenge Lab][gsp381] - [script](./gsp381.sh)
-23. [Get Started with Dataplex: Challenge Lab][arc117] - [script](./arc117.sh)
-24. [Implement CI/CD Pipelines on Google Cloud: Challenge Lab][gsp393] - [script](./gsp393.sh)
-25. [Develop Serverless Apps with Firebase: Challenge Lab][gsp344] - [script](./gsp344.sh)
-26. [Deploy a Compute Instance with a Remote Startup Script: Challenge Lab][gsp301] - [script](./gsp301.sh)
-27. [Build a Website on Google Cloud: Challenge Lab][gsp319] - [script](./gsp319.sh)
-28. [Build Google Cloud Infrastructure for AWS Professionals: Challenge Lab][gsp511] - [script](./gsp511.sh)
-29. [Build Google Cloud Infrastructure for Azure Professionals: Challenge Lab][gsp512] - [script](./gsp512.sh)
-30. [Create and Manage AlloyDB Instances: Challenge Lab][gsp395] - [script](./gsp395.sh)
-31. [Create a Streaming Data Lake on Cloud Storage: Challenge Lab][arc110] - [script](./arc110.sh)
-32. [Tag and Discover BigLake Data: Challenge Lab][arc123] - [script](./arc123.sh)
+19. [Implement Cloud Security Fundamentals on Google Cloud: Challenge Lab][gsp342] - [script](./gsp342.sh)
+20. [Implement DevOps Workflows in Google Cloud: Challenge Lab][gsp330] - [script](./gsp330.sh)
+21. [Classify Images with TensorFlow on Google Cloud: Challenge Lab][gsp398] - [script](./gsp398.sh)
+22. [Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab][gsp379] - [doc](./gsp379.md)
+23. [Create and Manage Cloud Spanner Instances: Challenge Lab][gsp381] - [script](./gsp381.sh)
+24. [Get Started with Dataplex: Challenge Lab][arc117] - [script](./arc117.sh)
+25. [Implement CI/CD Pipelines on Google Cloud: Challenge Lab][gsp393] - [script](./gsp393.sh)
+26. [Develop Serverless Apps with Firebase: Challenge Lab][gsp344] - [script](./gsp344.sh)
+27. [Deploy a Compute Instance with a Remote Startup Script: Challenge Lab][gsp301] - [script](./gsp301.sh)
+28. [Build a Website on Google Cloud: Challenge Lab][gsp319] - [script](./gsp319.sh)
+29. [Build Google Cloud Infrastructure for AWS Professionals: Challenge Lab][gsp511] - [script](./gsp511.sh)
+30. [Build Google Cloud Infrastructure for Azure Professionals: Challenge Lab][gsp512] - [script](./gsp512.sh)
+31. [Create and Manage AlloyDB Instances: Challenge Lab][gsp395] - [script](./gsp395.sh)
+32. [Create a Streaming Data Lake on Cloud Storage: Challenge Lab][arc110] - [script](./arc110.sh)
+33. [Tag and Discover BigLake Data: Challenge Lab][arc123] - [script](./arc123.sh)
+34. [Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab][gsp327] - [doc](./gsp327.md)
 
 # TODO
 1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
@@ -81,3 +82,4 @@
 [gsp395]: https://www.cloudskillsboost.google/course_templates/642/labs/477663
 [arc110]: https://www.cloudskillsboost.google/course_templates/705/labs/461631
 [arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
+[gsp327]: https://partner.cloudskillsboost.google/paths/84/course_templates/627/labs/490569
