@@ -34,6 +34,7 @@
 32. [Create a Streaming Data Lake on Cloud Storage: Challenge Lab][arc110] - [script](./arc110.sh)
 33. [Tag and Discover BigLake Data: Challenge Lab][arc123] - [script](./arc123.sh)
 34. [Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab][gsp327] - [doc](./gsp327.md)
+35. [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab][gsp354] - [doc](./gsp354.md)
 
 # TODO
 1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
@@ -83,3 +84,4 @@
 [arc110]: https://www.cloudskillsboost.google/course_templates/705/labs/461631
 [arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
 [gsp327]: https://partner.cloudskillsboost.google/paths/84/course_templates/627/labs/490569
+[gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
