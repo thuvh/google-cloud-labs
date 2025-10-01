@@ -2,7 +2,7 @@
 
 1. [Manage Kubernetes in Google Cloud: Challenge Lab][gsp510] - [doc](./gsp510.md) - [script](./gsp510.sh)
 2. [Deploy Kubernetes Applications on Google Cloud: Challenge Lab][gsp318] - [doc](./gsp318.md) - [script](./gsp318.md)
-3. [Set Up an App Dev Environment on Google Cloud: Challenge Lab][gsp315] - [doc][./gsp315.md) - [script](./gsp315.md)
+3. [Set Up an App Dev Environment on Google Cloud: Challenge Lab][gsp315] - [doc]./gsp315.md) - [script](./gsp315.md)
 4. [Detect Manufacturing Defects using Visual Inspection AI: Challenge Lab][gsp366] - [doc](./gsp366.md) - [script](./gsp366.md)
 5. [Build LookML Objects in Looker: Challenge Lab][gsp361] - [doc](./gsp361.md) - [script](./gsp361.sh)
 6. [Analyze Images with the Cloud Vision API: Challenge Lab][arc122] - [doc](./arc122.md) - [script](./arc122.sh)
@@ -35,8 +35,10 @@
 33. [Tag and Discover BigLake Data: Challenge Lab][arc123] - [script](./arc123.sh)
 34. [Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab][gsp327] - [doc](./gsp327.md)
 35. [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab][gsp354] - [doc](./gsp354.md)
+36. [Build a Multi-Modal GenAI Application: Challenge Lab][gsp1076] - [doc](./gsp1076.md)
 
 # TODO
+
 1. https://www.cloudskillsboost.google/course_templates/645/labs/464890
 2. https://www.cloudskillsboost.google/course_templates/654/labs/464661
 3. https://www.cloudskillsboost.google/course_templates/716/labs/464399
@@ -85,3 +87,4 @@
 [arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
 [gsp327]: https://partner.cloudskillsboost.google/paths/84/course_templates/627/labs/490569
 [gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
+[gsp1076]: https://www.cloudskillsboost.google/course_templates/1076/labs/584321
