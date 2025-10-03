@@ -37,6 +37,7 @@
 35. [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab][gsp354] - [doc](./gsp354.md)
 36. [Build a Multi-Modal GenAI Application: Challenge Lab][gsp1076] - [doc](./gsp1076.md)
 37. [Prompt Design in Vertex AI: Challenge Lab][gsp519] - [doc](./gsp519.md)
+38. [Enhance Gemini Model Capabilities: Challenge Lab][gsp525] - [doc](./gsp525.md)
 
 # TODO
 
@@ -90,3 +91,4 @@
 [gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
 [gsp1076]: https://www.cloudskillsboost.google/course_templates/1076/labs/584321
 [gsp519]: https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/591398
+[gsp525]: https://www.cloudskillsboost.google/course_templates/1241/labs/591604
