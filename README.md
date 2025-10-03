@@ -38,6 +38,7 @@
 36. [Build a Multi-Modal GenAI Application: Challenge Lab][gsp1076] - [doc](./gsp1076.md)
 37. [Prompt Design in Vertex AI: Challenge Lab][gsp519] - [doc](./gsp519.md)
 38. [Enhance Gemini Model Capabilities: Challenge Lab][gsp525] - [doc](./gsp525.md)
+39. [Cloud Speech API 3 Ways: Challenge Lab][arc132] - [doc](./arc132.md)
 
 # TODO
 
@@ -51,44 +52,44 @@
 8. https://www.cloudskillsboost.google/course_templates/726?catalog_rank=%7B%22rank%22%3A9%2C%22num_filters%22%3A1%2C%22has_search%22%3Afalse%7D
 9. https://www.cloudskillsboost.google/paths/16/course_templates/681
 
-[gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
-[gsp318]: https://www.cloudskillsboost.google/focuses/10457?parent=catalog#step1
-[gsp315]: https://www.cloudskillsboost.google/focuses/10379?parent=catalog
-[gsp366]: https://www.cloudskillsboost.google/course_templates/644/labs/462782
-[gsp361]: https://www.cloudskillsboost.google/games/4993/labs/32544
-[arc122]: https://www.cloudskillsboost.google/course_templates/633/labs/461567
-[arc130]: https://www.cloudskillsboost.google/course_templates/667/labs/461611
-[arc114]: https://www.cloudskillsboost.google/focuses/63851?parent=catalog
-[arc101]: https://www.cloudskillsboost.google/course_templates/653/labs/461539
-[gsp345]: https://www.cloudskillsboost.google/course_templates/636/labs/464836
-[gsp380]: https://www.cloudskillsboost.google/games/5044/labs/32923
-[arc125]: https://www.cloudskillsboost.google/games/5044/labs/32926
-[arc106]: https://www.cloudskillsboost.google/course_templates/752/labs/461559
-[arc131]: https://www.cloudskillsboost.google/course_templates/756/labs/461655
-[arc129]: https://www.cloudskillsboost.google/course_templates/751/labs/461551
-[arc124]: https://www.cloudskillsboost.google/games/5156/labs/33681
-[gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687
-[gsp341]: https://www.cloudskillsboost.google/course_templates/626/labs/489291
-[gsp344]: https://www.cloudskillsboost.google/course_templates/649/labs/489703
-[gsp305]: https://www.cloudskillsboost.google/games/5155/labs/33670
-[gsp327]: https://www.cloudskillsboost.google/games/5178/labs/33845
-[gsp342]: https://www.cloudskillsboost.google/course_templates/645/labs/464890
-[gsp330]: https://www.cloudskillsboost.google/course_templates/716/labs/464399
-[gsp398]: https://www.cloudskillsboost.google/course_templates/646/labs/476328
-[gsp379]: https://www.cloudskillsboost.google/course_templates/776/labs/423784
-[gsp381]: https://www.cloudskillsboost.google/course_templates/643/labs/471750
-[arc117]: https://www.cloudskillsboost.google/course_templates/726/labs/461571
-[gsp393]: https://www.cloudskillsboost.google/course_templates/691/labs/476322
 [gsp301]: https://www.cloudskillsboost.google/course_templates/640/labs/489765
+[gsp305]: https://www.cloudskillsboost.google/games/5155/labs/33670
+[gsp315]: https://www.cloudskillsboost.google/focuses/10379?parent=catalog
+[gsp318]: https://www.cloudskillsboost.google/focuses/10457
 [gsp319]: https://www.cloudskillsboost.google/course_templates/638/labs/480370
 [gsp321]: https://www.cloudskillsboost.google/course_templates/625/labs/464390
+[gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687
+[gsp327]: https://www.cloudskillsboost.google/games/5178/labs/33845
+[gsp330]: https://www.cloudskillsboost.google/course_templates/716/labs/464399
+[gsp341]: https://www.cloudskillsboost.google/course_templates/626/labs/489291
+[gsp342]: https://www.cloudskillsboost.google/course_templates/645/labs/464890
+[gsp344]: https://www.cloudskillsboost.google/course_templates/649/labs/489703
+[gsp345]: https://www.cloudskillsboost.google/course_templates/636/labs/464836
+[gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
+[gsp361]: https://www.cloudskillsboost.google/games/4993/labs/32544
+[gsp366]: https://www.cloudskillsboost.google/course_templates/644/labs/462782
+[gsp379]: https://www.cloudskillsboost.google/course_templates/776/labs/423784
+[gsp380]: https://www.cloudskillsboost.google/games/5044/labs/32923
+[gsp381]: https://www.cloudskillsboost.google/course_templates/643/labs/471750
+[gsp393]: https://www.cloudskillsboost.google/course_templates/691/labs/476322
+[gsp395]: https://www.cloudskillsboost.google/course_templates/642/labs/477663
+[gsp398]: https://www.cloudskillsboost.google/course_templates/646/labs/476328
+[gsp510]: https://www.cloudskillsboost.google/course_templates/783/labs/408511
 [gsp511]: https://www.cloudskillsboost.google/course_templates/687/labs/452147
 [gsp512]: https://www.cloudskillsboost.google/course_templates/688/labs/462741
-[gsp395]: https://www.cloudskillsboost.google/course_templates/642/labs/477663
-[arc110]: https://www.cloudskillsboost.google/course_templates/705/labs/461631
-[arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
-[gsp327]: https://partner.cloudskillsboost.google/paths/84/course_templates/627/labs/490569
-[gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
-[gsp1076]: https://www.cloudskillsboost.google/course_templates/1076/labs/584321
 [gsp519]: https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/591398
 [gsp525]: https://www.cloudskillsboost.google/course_templates/1241/labs/591604
+[gsp1076]: https://www.cloudskillsboost.google/course_templates/1076/labs/584321
+[arc101]: https://www.cloudskillsboost.google/course_templates/653/labs/461539
+[arc106]: https://www.cloudskillsboost.google/course_templates/752/labs/461559
+[arc110]: https://www.cloudskillsboost.google/course_templates/705/labs/461631
+[arc114]: https://www.cloudskillsboost.google/focuses/63851?parent=catalog
+[arc117]: https://www.cloudskillsboost.google/course_templates/726/labs/461571
+[arc122]: https://www.cloudskillsboost.google/course_templates/633/labs/461567
+[arc123]: https://www.cloudskillsboost.google/course_templates/753/labs/461575
+[arc124]: https://www.cloudskillsboost.google/games/5156/labs/33681
+[arc125]: https://www.cloudskillsboost.google/games/5044/labs/32926
+[arc129]: https://www.cloudskillsboost.google/course_templates/751/labs/461551
+[arc130]: https://www.cloudskillsboost.google/course_templates/667/labs/461611
+[arc131]: https://www.cloudskillsboost.google/course_templates/756/labs/461655
+[arc132]: https://www.cloudskillsboost.google/course_templates/700/labs/585931
