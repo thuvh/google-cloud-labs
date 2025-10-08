@@ -39,6 +39,7 @@
 37. [Prompt Design in Vertex AI: Challenge Lab][gsp519] - [doc](./gsp519.md)
 38. [Enhance Gemini Model Capabilities: Challenge Lab][gsp525] - [doc](./gsp525.md)
 39. [Cloud Speech API 3 Ways: Challenge Lab][arc132] - [doc](./arc132.md)
+40. [Automate Data Capture at Scale with Document AI: Challenge Lab][gsp367] - [doc](./gsp367.md)
 
 # TODO
 
@@ -68,6 +69,7 @@
 [gsp354]: https://partner.cloudskillsboost.google/paths/84/course_templates/684/labs/526875
 [gsp361]: https://www.cloudskillsboost.google/games/4993/labs/32544
 [gsp366]: https://www.cloudskillsboost.google/course_templates/644/labs/462782
+[gsp367]: https://www.cloudskillsboost.google/course_templates/674/labs/586884
 [gsp379]: https://www.cloudskillsboost.google/course_templates/776/labs/423784
 [gsp380]: https://www.cloudskillsboost.google/games/5044/labs/32923
 [gsp381]: https://www.cloudskillsboost.google/course_templates/643/labs/471750
