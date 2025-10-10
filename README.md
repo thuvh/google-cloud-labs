@@ -40,6 +40,7 @@
 38. [Enhance Gemini Model Capabilities: Challenge Lab][gsp525] - [doc](./gsp525.md)
 39. [Cloud Speech API 3 Ways: Challenge Lab][arc132] - [doc](./arc132.md)
 40. [Automate Data Capture at Scale with Document AI: Challenge Lab][gsp367] - [doc](./gsp367.md)
+41. [Use Machine Learning APIs on Google Cloud: Challenge Lab][gsp329] - [doc](./gsp329.md)
 
 # TODO
 
@@ -61,6 +62,7 @@
 [gsp321]: https://www.cloudskillsboost.google/course_templates/625/labs/464390
 [gsp322]: https://www.cloudskillsboost.google/games/5156/labs/33687
 [gsp327]: https://www.cloudskillsboost.google/games/5178/labs/33845
+[gsp329]: https://www.cloudskillsboost.google/course_templates/630/labs/580206
 [gsp330]: https://www.cloudskillsboost.google/course_templates/716/labs/464399
 [gsp341]: https://www.cloudskillsboost.google/course_templates/626/labs/489291
 [gsp342]: https://www.cloudskillsboost.google/course_templates/645/labs/464890
